@@ -1,7 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#FF6F00</color>
-    <color name="colorPrimaryDark">#A74A04</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">#27187D</color>
+    <color name="colorPrimaryDark">#27187D</color>
+    <color name="colorAccent">#FE94BC</color>
+
+    <!--Transparent-->
+    <color name="transparent">#00000000</color>
+
+
+    <!--GREY SHADES-->
     <color name="black">#000000</color>
+    <color name="grey_100">#4A4A4A</color>
+    <color name="grey_80">#6E6E6E</color>
+    <color name="grey_60">#929292</color>
+    <color name="grey_40">#B7B7B7</color>
+    <color name="grey_20">#DBDBDB</color>
+    <color name="grey_10">#ECECEC</color>
+    <color name="grey_5">#F6F6F6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_60">#80FFFFFF</color>
+    <color name="white_85">#D9FFFFFF</color>
+
+
+    <color name="light_red">#FFCCD2</color>
+    <color name="primary_red">#FA3532</color>
+    <color name="dark_red">#EB2931</color>
+    <color name="heavy_red">#D91D2B</color>
+    <color name="gradient_light_red_dark">@color/primary_red</color>
+    <color name="gradient_light_red_light">#FD6561</color>
+    <color name="lucky_money_envelope_top">#FA3432</color>
+    <color name="lucky_money_envelope_background">#EB2931</color>
+
+    <color name="subtle_orange">#FFF3E2</color>
+    <color name="light_orange">#FFE1B6</color>
+    <color name="primary_orange">#FE8F27</color>
+    <color name="dark_orange">#F77F25</color>
+    <color name="heavy_orange">#F07023</color>
+
+    <color name="subtle_yellow">#FFF8E0</color>
+    <color name="light_yellow">#FEEBB0</color>
+    <color name="primary_yellow">#FDD344</color>
+    <color name="dark_yellow">#FDB000</color>
+    <color name="heavy_yellow">#FE9D00</color>
+
+    <color name="subtle_blue">#E3F1FF</color>
+    <color name="light_blue">#BBDCFF</color>
+    <color name="primary_blue">#288FFF</color>
+    <color name="dark_blue">#2B81F0</color>
+    <color name="heavy_blue">#2B6EDC</color>
+
+    <color name="subtle_green">#DCF4EE</color>
+    <color name="light_green">#AAE4D3</color>
+    <color name="primary_green">#09C199</color>
+    <color name="dark_green">#00A371</color>
+    <color name="heavy_green">#009565</color>
 </resources>

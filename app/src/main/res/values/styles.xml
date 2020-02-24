@@ -19,5 +19,5 @@
     <style name="splashBackground" parent="FullScreen">
         <item name="android:windowBackground">@drawable/splash_bg_ll</item>
     </style>
-    
+
 </resources>
