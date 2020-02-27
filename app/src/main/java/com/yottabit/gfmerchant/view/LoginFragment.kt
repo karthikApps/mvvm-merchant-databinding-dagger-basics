@@ -1,12 +1,12 @@
-package com.yottabit.glamficsmerchant.ui.main
+package com.yottabit.gfmerchant.view
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.lifecycle.ViewModelProviders
-import com.yottabit.glamficsmerchant.R
+import androidx.fragment.app.Fragment
+import com.yottabit.gfmerchant.R
+import com.yottabit.gfmerchant.viewmodel.LoginViewModel
 
 class LoginFragment : Fragment() {
 
@@ -17,15 +17,15 @@ class LoginFragment : Fragment() {
     private lateinit var viewModel: LoginViewModel
 
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        return inflater.inflate(R.layout.login_fragment, container, false)
+        return inflater.inflate(R.layout.login_activity, container, false)
     }
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-        viewModel = ViewModelProviders.of(this).get(LoginViewModel::class.java)
         // TODO: Use the ViewModel
     }
 

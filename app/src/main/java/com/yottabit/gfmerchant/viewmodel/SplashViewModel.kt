@@ -1,4 +1,4 @@
-package com.yottabit.glamficsMerchant.ui.main
+package com.yottabit.gfmerchant.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

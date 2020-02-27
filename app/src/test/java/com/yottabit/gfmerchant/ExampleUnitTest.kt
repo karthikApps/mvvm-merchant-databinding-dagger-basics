@@ -1,4 +1,4 @@
-package com.yottabit.glamficsmerchant
+package com.yottabit.gfmerchant
 
 import org.junit.Test
 

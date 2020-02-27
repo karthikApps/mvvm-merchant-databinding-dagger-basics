@@ -1,4 +1,4 @@
-package com.yottabit.glamficsmerchant
+package com.yottabit.gfmerchant.view
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,10 +6,11 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.Observer
-import androidx.lifecycle.ViewModelProviders
-import com.yottabit.glamficsMerchant.ui.main.SplashState
-import com.yottabit.glamficsMerchant.ui.main.SplashViewModel
-import com.yottabit.glamficsmerchant.databinding.ActivitySplashBinding
+import androidx.lifecycle.ViewModelProvider
+import com.yottabit.gfmerchant.R
+import com.yottabit.gfmerchant.databinding.ActivitySplashBinding
+import com.yottabit.gfmerchant.viewmodel.SplashState
+import com.yottabit.gfmerchant.viewmodel.SplashViewModel
 
 class SplashActivity : AppCompatActivity() {
 
@@ -18,9 +19,12 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         val binding: ActivitySplashBinding =
-            DataBindingUtil.setContentView(this, R.layout.activity_splash)
+            DataBindingUtil.setContentView(
+                this,
+                R.layout.activity_splash
+            )
 
-        val splashViewModel = ViewModelProviders.of(this).get(SplashViewModel::class.java)
+        val splashViewModel = ViewModelProvider(this).get(SplashViewModel::class.java)
         splashViewModel.liveData.observe(this, Observer {
             when (it) {
                 is SplashState.MainActivity -> {
@@ -32,6 +36,6 @@ class SplashActivity : AppCompatActivity() {
 
     private fun goToMainActivity() {
         finish()
-        startActivity(Intent(this, MainActivity::class.java))
+        startActivity(Intent(this, LoginActivity::class.java))
     }
 }
