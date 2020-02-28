@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">GlamFicsMerchant</string>
+    <string name="enterbusinessname">enter business/shop name</string>
+    <string name="enteryourname">enter your name</string>
+    <string name="entermobilenum">enter business mobile number</string>
+    <string name="enteremail">enter business email (optional)</string>
+    <string name="enterbusinessaddress">enter business/shop address</string>
+    <string name="servicefor">Service for?</string>
+    <string name="mens">Mens</string>
+    <string name="womens">Womens</string>
+    <string name="unisex">Unisex</string>
+    <string name="register">Register</string>
+    <string name="business_reg_num">Shop register number TIN (optional)</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.yottabit.gfmerchant.view
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
@@ -33,6 +34,10 @@ class LoginActivity : AppCompatActivity(), AuthListener {
 
     override fun gotoMainActivity() {
         TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+    }
+
+    override fun gotoRegisterActivity() {
+        startActivity(Intent(this, RegisterActivity::class.java))
     }
 
 }

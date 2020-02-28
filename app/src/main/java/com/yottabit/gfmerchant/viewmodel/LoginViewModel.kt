@@ -16,4 +16,12 @@ class LoginViewModel : ViewModel() {
             return
         }
     }
+
+    fun onRegisterClick(view: View) {
+        authListener?.gotoRegisterActivity()
+    }
+
+    sealed class SplashState {
+        class RegisterActivity : SplashState()
+    }
 }

@@ -6,4 +6,5 @@ interface AuthListener{
     //fun onSuccess(user: UserX?)
     fun onFailure(message: String)
     fun gotoMainActivity()
+    fun gotoRegisterActivity()
 }
