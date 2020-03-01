@@ -33,7 +33,7 @@ class LoginActivity : AppCompatActivity(), AuthListener {
     }
 
     override fun gotoMainActivity() {
-        TODO("not implemented") //To change body of created functions use File | Settings | File Templates.
+        startActivity(Intent(this, MainActivity::class.java))
     }
 
     override fun gotoRegisterActivity() {

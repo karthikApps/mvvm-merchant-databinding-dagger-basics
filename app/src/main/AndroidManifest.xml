@@ -21,6 +21,8 @@
         <activity android:name="com.yottabit.gfmerchant.view.LoginActivity" />
 
         <activity android:name="com.yottabit.gfmerchant.view.RegisterActivity" />
+
+        <activity android:name="com.yottabit.gfmerchant.view.MainActivity" />
     </application>
 
 </manifest>

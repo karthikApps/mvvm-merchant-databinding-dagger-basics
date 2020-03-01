@@ -41,7 +41,12 @@ dependencies {
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1'
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.0.1"
 
-    /*Material Design*/
+    implementation 'androidx.multidex:multidex:2.0.1'
 
+    /*Material Design*/
     implementation 'com.google.android.material:material:1.2.0-alpha03'
+
+    //dagger
+    implementation "com.google.dagger:dagger:$daggerVersion"
+    annotationProcessor "com.google.dagger:dagger-compiler:$daggerVersion"
 }

@@ -11,4 +11,9 @@
     <string name="unisex">Unisex</string>
     <string name="register">Register</string>
     <string name="business_reg_num">Shop register number TIN (optional)</string>
+    <string name="home">Home</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="history">History</string>
+    <string name="account">Account</string>
+    <string name="pending_appointments">Pending Approvals</string>
 </resources>

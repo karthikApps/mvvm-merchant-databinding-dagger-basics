@@ -11,10 +11,11 @@ class LoginViewModel : ViewModel() {
 
 
     fun onLoginButtonClick(view: View) {
-        if (mobileNum.isNullOrEmpty() || password.isNullOrEmpty()) {
+        /*if (mobileNum.isNullOrEmpty() || password.isNullOrEmpty()) {
             authListener?.onFailure("Invalid email or password")
             return
-        }
+        }*/
+        authListener?.gotoMainActivity()
     }
 
     fun onRegisterClick(view: View) {
