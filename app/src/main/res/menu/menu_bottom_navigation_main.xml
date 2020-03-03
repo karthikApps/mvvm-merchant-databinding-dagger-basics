@@ -2,22 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/bottom_nav_home"
-        android:icon="@android:drawable/ic_menu_call"
-        android:title="@string/home" />
+        android:icon="@drawable/ic_action_home"
+        android:title="@string/dashboard" />
     <item
         android:id="@+id/bottom_nav_pending"
-        android:icon="@android:drawable/ic_menu_call"
+        android:icon="@drawable/ic_action_ballot"
         android:title="@string/upcoming" />
     <item
         android:id="@+id/bottom_nav_history"
-        android:icon="@android:drawable/ic_menu_call"
+        android:icon="@drawable/ic_action_history"
         android:title="@string/history" />
     <item
         android:id="@+id/bottom_navigation_appointments"
-        android:icon="@android:drawable/ic_menu_call"
+        android:icon="@drawable/ic_action_access_alarms"
         android:title="@string/pending_appointments" />
     <item
         android:id="@+id/bottom_nav_account"
-        android:icon="@android:drawable/ic_menu_call"
+        android:icon="@drawable/ic_action_account_box"
         android:title="@string/account" />
 </menu>

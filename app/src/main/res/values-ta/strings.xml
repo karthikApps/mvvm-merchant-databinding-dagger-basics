@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">GlamFicsMerchant</string>
     <string name="enterbusinessname">enter business/shop name</string>
@@ -6,14 +7,14 @@
     <string name="enteremail">enter business email (optional)</string>
     <string name="enterbusinessaddress">enter business/shop address</string>
     <string name="servicefor">Service for?</string>
-    <string name="mens">Mens</string>
-    <string name="womens">Womens</string>
+    <string name="mens">ஆண்கள்</string>
+    <string name="womens">பெண்கள்</string>
     <string name="unisex">Unisex</string>
     <string name="register">Register</string>
     <string name="business_reg_num">Shop register number TIN (optional)</string>
     <string name="dashboard">Dashboard</string>
-    <string name="upcoming">Upcoming</string>
-    <string name="history">History</string>
-    <string name="account">Account</string>
+    <string name="upcoming">அடுத்த சேவைகள்</string>
+    <string name="history">வரலாறு</string>
+    <string name="account">கணக்கு</string>
     <string name="pending_appointments">Pending Approvals</string>
 </resources>
